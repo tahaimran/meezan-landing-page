@@ -6,7 +6,7 @@ function Team(){
     return(
         <div className='container-fluid'>
         <div className='team text-center container my-5'>
-   <h2>Best Friends Forever</h2>
+   <h2>Meezan Team</h2>
    <div className='row'>
       <div className=' person col-md-6   my-5'>
          

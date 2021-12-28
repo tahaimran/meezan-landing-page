@@ -3,7 +3,7 @@ import Message from '../Images/message.jpg'
  function ContactForm() {
     return(
    <div className='container contact '>
-	<div className='row mt-5'>
+	<div className='row mt-5 d-flex justify-content-center'>
 		<div className='col-md-6'>
             <h3>We Will Be Right Back As Recieve Your Response</h3>
 			<form>
@@ -11,11 +11,9 @@ import Message from '../Images/message.jpg'
 					<input type='text' placeholder="Enter Your Name" /> </div>
 				<div className='inputBox'>
 					<input type='email' placeholder="Enter Your Email" /> </div>
-				<div className='message'> 
-					<textarea placeholder="Enter Your message" rows="5" cols="40">
+					<textarea className ='message' placeholder="Enter Your message" rows="5" cols="40">
                     </textarea>
-                </div>
-                <button className='submit'>Send Message</button>
+                <button className='submit '>Send Message</button>
 			</form>
 		</div>
         <div className='col-md-6'>

@@ -1,44 +1,42 @@
 import './vision.css'
 import Mission from '../Images/mission.png'
+import { Carousel } from 'react-bootstrap'
 function Vision() {
-    return(
-        
-<div className='Vision container-fluid'>
-  <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-  <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-    <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-    <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-  </ol>
+  return (
 
-<div className="carousel-inner">
-    <div className="carousel-item active d-flex justify-content-center">
-      <img className="" width={460} height={345} src={Mission} alt="First slide" />
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Our Mission</h5>
-        <p>...</p>
-      </div>
-        </div>
-     <div className="carousel-item  d-flex justify-content-center">
-      <img className="" src='..' alt="Second slide" />
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Our Vision</h5>
-        <p>...</p>
-      </div>
-    </div>
-</div>
-  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="sr-only">Next</span>
-  </a>
-</div>
+    <div className='Vision container'>
+      <Carousel>
+        <Carousel.Item interval={1000}>
+          <img
+            className="d-block "
+            src="https://www.kinesisinc.com/wp-content/uploads/2020/04/company-mission-statement-hero-@2x.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h1>Our Mission</h1>
+            <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+            </h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={1000}>
+          <img
+            className="d-block "
+            src="https://cdn-images-1.medium.com/max/1024/1*pL-rEQNWsdhPZ527yUQVgQ.png"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h1>Our Vision</h1>
+            <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+            </h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
     </div>
 
 
-    );
+  );
 }
 export default Vision;
