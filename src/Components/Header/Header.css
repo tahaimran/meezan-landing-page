@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #F4B41A;
+    padding: 0px 10px
+}
+.navbar ul li{
+    cursor: pointer;
+    
+}
+.navbar ul li p{
+    color: #143D59;
+    font-weight: 600;
+    font-size: 1.2em
+}
+.navbar ul li p:hover{
+    color: white;
+}
+.navbar h3{
+     color: white;
+    font-weight: 600;
+        font-size: 2em
+}

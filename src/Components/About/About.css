@@ -1,0 +1,13 @@
+.about{
+    margin: 50px auto !important;
+}
+.about h2 span{
+    color: rgb(244,180,26);
+    text-decoration: underline
+}
+.about .headingabout{
+    color: #143D59;
+}
+.about p{
+    color: #143D59;
+}

@@ -1,0 +1,46 @@
+.contact{
+    margin: 100px auto !important;
+}
+.inputBox{
+    background-color: #F4B41A;
+    width: 550px;
+    border: none;
+/*    border-radius: 50px;*/
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+        margin-bottom: 10px
+
+}
+.inputBox input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #143D59;
+    padding: 15px;
+}
+.message{
+   
+}
+.message textarea{
+     border: 1px solid  #F4B41A;
+    outline: none;
+    width : 550px;
+    padding: 10px
+}
+.submit{
+    width: 350px;
+    height: 40px;
+    background-color: #F4B41A;
+    color: white;
+    border: none;
+    margin-left: 80px !important;
+    border-radius: 50px
+}
+.submit:hover{
+    background-color: #143D59;
+    color:white;
+    transition-duration: 0.5s; 
+        border: 1px solid #F4B41A;
+    transform: scale(1.2)
+}

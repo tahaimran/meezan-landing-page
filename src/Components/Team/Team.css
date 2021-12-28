@@ -1,0 +1,29 @@
+.team{
+        border-radius:30px;
+    padding: 10px
+}
+.team h2{
+    font-weight: 700;
+    color: #F4B41A;
+    font-size: 2.2em;
+    text-decoration: underline
+}
+.team .person img{
+    height: 200px !important;
+    width: 150px !important;
+    border-radius: 50px;
+    overflow: hidden
+
+}
+.team .person img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+    transition-duration: 0.7s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.team h3{
+    color: #F4B41A
+}
+.team p{
+    color: #143D59;
+}
