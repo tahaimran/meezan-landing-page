@@ -6,6 +6,7 @@
     z-index: 1;
     cursor: pointer;
 }
+
 .TopBtn .arrow:hover{
-    color: #143D59;
+    color: #2B5069;
 }

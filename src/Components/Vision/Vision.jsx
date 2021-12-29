@@ -14,7 +14,7 @@ function Vision() {
           />
           <Carousel.Caption>
             <h1>Our Mission</h1>
-            <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            <h5>Become essential to our customers by providing differentiated products and services to help them achieve their aspirations.
 
             </h5>
           </Carousel.Caption>
@@ -27,7 +27,7 @@ function Vision() {
           />
           <Carousel.Caption>
             <h1>Our Vision</h1>
-            <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            <h5>Provide maximum value for our shareholders whilst helping our customers to fulfil their dreams.
 
             </h5>
           </Carousel.Caption>
