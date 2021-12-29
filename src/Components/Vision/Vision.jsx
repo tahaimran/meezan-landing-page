@@ -1,6 +1,7 @@
 import './vision.css'
-import Mission from '../Images/mission.png'
-import { Carousel } from 'react-bootstrap'
+import Mission from '../Images/mission.jpg';
+import Visions from '../Images/vision.png'
+import { Carousel } from 'react-bootstrap';
 function Vision() {
   return (
 
@@ -9,7 +10,7 @@ function Vision() {
         <Carousel.Item interval={1000}>
           <img
             className="d-block "
-            src="https://www.kinesisinc.com/wp-content/uploads/2020/04/company-mission-statement-hero-@2x.jpg"
+            src={Mission}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +23,7 @@ function Vision() {
         <Carousel.Item interval={1000}>
           <img
             className="d-block "
-            src="https://cdn-images-1.medium.com/max/1024/1*pL-rEQNWsdhPZ527yUQVgQ.png"
+            src={Visions}
             alt="Second slide"
           />
           <Carousel.Caption>

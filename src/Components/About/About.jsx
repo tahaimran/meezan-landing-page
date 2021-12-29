@@ -14,9 +14,6 @@ function About() {
                     <p>
                         Incorporated Street organizations, covering the world. Through our worldwide organization of control pinnacles and cutting-edge innovation, we can screen and progressively respond to circumstances, for example, antagonistic climate, extra pick-ups or drop-offs, or weighty traffic, implying that your products are continually venturing to every part of the most proficient course.
                     </p>
-                    <p>
-                        Our non-resource-based Street network furnishes you with adaptability, further developed assistance levels, sped-up conveyance, diminished immediate and aberrant expenses, and significantly less intricacy.
-                    </p>
                 </div>
             </div>
         </div>
