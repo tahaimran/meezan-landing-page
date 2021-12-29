@@ -1,5 +1,5 @@
 .about{
-    margin: 50px auto !important;
+    margin: 100px auto !important;
 }
 .about h2 span{
     color: rgb(244,180,26);
@@ -10,4 +10,18 @@
 }
 .about p{
     color: #143D59;
+}
+.about img{
+    animation: aboutImg  1s infinite alternate;
+}
+
+@keyframes aboutImg {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-80px);
+    }
+
 }

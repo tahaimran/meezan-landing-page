@@ -8,6 +8,7 @@ import ContactForm from './Components/ContactForm/ContactForm.jsx'
 import Partners from './Components/Partners/Partners.jsx'
 import FooterTop from './Components/FooterTop/FooterTop.jsx'
 import FooterBot from './Components/FooterBot/FooterBot.jsx'
+import TopBtn from './Components/TopBtn/TopBtn.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header/>
       <Main />
       <Features/>
+      <TopBtn/>
       <Vision />
       <Team />
       <About />

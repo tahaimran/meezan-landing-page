@@ -2,7 +2,7 @@ import AboutUs from '../Images/about.png'
 import './About.css'
 function About() {
     return(
-    <div className='container about'>
+    <div id='About' className='container about'>
             <div className='row  d-flex align-items-center'>
                 <div className='col-md-6'>
                 <img className='img-fluid' src={AboutUs}/>

@@ -1,7 +1,8 @@
-.features h2{
+.features h1{
     margin-bottom: 20px;
     font-weight: 700;
-    color: #143D59
+    color: #143D59;
+    margin-bottom: 50px !important;
 }
 .features h3{
     margin: 10px 0px;   
@@ -15,7 +16,7 @@
     color: #143D59
 }
 .features{
-    margin: 50px auto !important
+    margin: 100px auto !important
 }
 .features .icon{
     color: #F4B41A
@@ -23,5 +24,5 @@
 .features .icon:hover{
     color:#143D59 ;
     cursor: pointer;
-    transition-duration: 0.6s;
+    transform: scale(1.3);
 }

@@ -27,3 +27,18 @@
 .team p{
     color: #143D59;
 }
+
+.team  .img-fluid{
+    animation: teamImg  1s infinite alternate;
+}
+
+@keyframes teamImg {
+    0% {
+        transform: translateX(40px);
+    }
+
+    100% {
+        transform: translateX(-80px);
+    }
+
+}

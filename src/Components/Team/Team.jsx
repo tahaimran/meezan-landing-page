@@ -4,7 +4,7 @@ import { Google, Facebook, LinkedIn } from '@mui/icons-material';
 
 function Team(){
     return(
-        <div className='container-fluid'>
+        <div id='Team' className='container-fluid'>
         <div className='team text-center container my-5'>
    <h2>Meezan Team</h2>
    <div className='row'>

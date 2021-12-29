@@ -41,3 +41,17 @@
         border: 1px solid #F4B41A;
     transform: scale(1.2)
 }
+.contact  img{
+    animation: contactImg  1s infinite alternate;
+}
+
+@keyframes contactImg {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(80px);
+    }
+
+}
