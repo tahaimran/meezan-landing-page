@@ -18,17 +18,15 @@ jobs:
         with:
             node-version: 16
 
-      
-      # Install npm packages
-      - name: Install packages
-        run: npm install
-
-      # Build react app
-      - name: Build the app
-        run: npm run build
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install # will run `yarn install` command
+        
+      - name: Build React App
+        run: yarn build
 
       - name: Installing Surge
-        run: npm install -g  surge
+        run: npm install -g surge
 
       - name: deploying using Surge
         run : surge ./build http://meezan.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
