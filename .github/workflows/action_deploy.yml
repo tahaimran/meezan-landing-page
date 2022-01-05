@@ -33,6 +33,7 @@ jobs:
         npm install # Install Dependencies
         CI=false npm run build # CI=false to ignore warnings
 
+
       - name: Installing Surge
         run: npm install -g  surge
 
