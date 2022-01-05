@@ -18,9 +18,14 @@ jobs:
         with:
             node-version: 16
 
+      - name: Build React App
+        run: |
+          npm install # Install Dependencies
+          CI=false npm run build # CI=false to ignore warnings
+
 
       - name: Installing Surge
-        run: npm install -g surge
+        run: npm install -g  surge
 
       - name: deploying using Surge
-        run : surge ./build http://meezan.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run : surge ./build  http://meezan.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
