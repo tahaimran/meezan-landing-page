@@ -19,7 +19,7 @@ function Features() {
                 <div className="col-md-4">
                <AssuredWorkload className='icon' sx={{ fontSize: 50 }}/>    
                 <h3>Quality <span>Assuarance</span></h3>
-                <p>You benefit from our involvement with conveying successful answers for the complex worldwide stockpile chains of a portion of the world's greatest partnerships.</p>
+                <p>You benefits from our involvement with conveying successful answers for the complex worldwide stockpile chains of a portion of the world's greatest partnerships.</p>
             </div>
             </div>
         </div>
