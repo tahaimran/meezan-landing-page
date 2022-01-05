@@ -18,7 +18,6 @@ jobs:
         with:
             node-version: 16
 
-      
       # Install npm packages
       - name: Install packages
         run: npm install
@@ -28,7 +27,7 @@ jobs:
         run: npm run build
 
       - name: Installing Surge
-        run: npm install -g  surge
+        run: npm install -g surge
 
       - name: deploying using Surge
-        run : surge ./build  http://meezan.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run : surge ./build http://meezan.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
