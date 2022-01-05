@@ -39,5 +39,5 @@ jobs:
       - name: Installing Surge
         run: npm install -g  surge
 
-      - name: deploying using surge
+      - name: deploying using Surge
         run : surge ./ meezan.surge.sh --token ${{secrets.SURGE_TOKEN}}
