@@ -28,6 +28,14 @@ jobs:
         with:
             node-version: 16
 
+      # Install npm packages
+      - name: Install packages
+        run: npm install
+
+      # Build react app
+      - name: Build the app
+        run: npm run build
+
       - name: Installing Surge
         run: npm install -g  surge
 
