@@ -28,6 +28,11 @@ function Header(){
               </li>
               <li className="nav-item">
                 <p className="nav-link ">
+                <Link to='About' smooth={true} duration={1000}>Download</Link>
+                </p>
+              </li>
+              <li className="nav-item">
+                <p className="nav-link ">
                 <Link to='About' smooth={true} duration={1000}>About Us</Link>
                 </p>
               </li>

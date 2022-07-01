@@ -1,8 +1,11 @@
 .partners{
-    color: white;
-    background-color: #143D59;
+/* color: white; */
+    /* background-color: #143D59; */
     text-decoration: underline;
     opacity: 0.9;
+}
+.partners h2{
+    color: #143D59;
 }
 .partners .row{
     padding: 20px 0px;

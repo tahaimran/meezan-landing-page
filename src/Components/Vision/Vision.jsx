@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap';
 function Vision() {
   return (
 
-    <div id='Mission' className='Vision container'>
+    <div id='Mission' className='Vision container-fluid'>
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
