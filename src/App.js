@@ -9,6 +9,7 @@ import Partners from './Components/Partners/Partners.jsx'
 import FooterTop from './Components/FooterTop/FooterTop.jsx'
 import FooterBot from './Components/FooterBot/FooterBot.jsx'
 import TopBtn from './Components/TopBtn/TopBtn.jsx';
+import Product from './Components/Product/Product.jsx';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Main />
       <Features/>
       <TopBtn/>
-      <Vision />
+      {/* <Vision /> */}
+      <Product/>
       <Team />
       <About />
       <ContactForm />

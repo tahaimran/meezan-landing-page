@@ -1,0 +1,23 @@
+.prodImg{
+ opacity: 0.9 !important;
+}
+.product h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #143D59;
+}
+.prodTitle{
+    color: #143D59;
+    font-size: 25px !important;
+
+}
+.prodPara{
+    color: #143D59;
+}
+.card{
+    margin: 10px;
+    border: 2px solid #F4B41A !important;
+}
+.cardBody{
+    background-color: #F4B41A;
+}
