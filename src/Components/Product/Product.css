@@ -2,7 +2,7 @@
  opacity: 0.9 !important;
 }
 .product h1{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 700;
     color: #143D59;
 }
@@ -15,9 +15,28 @@
     color: #143D59;
 }
 .card{
-    margin: 10px;
     border: 2px solid #F4B41A !important;
+    width: 350px !important;
+    margin: 10px;
 }
 .cardBody{
     background-color: #F4B41A;
+}
+.cardGroup{
+    display: inline-flex;
+}
+.prodGrp{
+    margin: 20px;
+    overflow-x: scroll !important ;
+}
+.prodGrp::-webkit-scrollbar{
+    background-color: #F4B41A;
+    height: 10px;
+    border-radius: 10px;
+
+}
+.prodGrp::-webkit-scrollbar-thumb {
+    background: #143D59;
+    border-radius: 10px;
+
 }
