@@ -4,11 +4,11 @@ function Partners() {
     return (
         <div className='container-fluid partners text-center mt-5'>
             <div className='row align-items-center'>
-                <div className='col-md-4'>
-                    <h1>OUR Clients</h1>
+                <div className='col-md-3'>
+                    <img className='img-fluid' width='160px' src="https://thumbs.dreamstime.com/b/clients-group-icon-special-orange-round-button-isolated-abstract-illustration-105918362.jpg" alt="" />
 
                 </div>
-                <div className='col-md-8 row d-flex align-items-center'>
+                <div className='col-md-9 row d-flex align-items-center'>
                     <div className='col-md-3'>
                         <h2 className='textCompany'>AWC</h2>
 
