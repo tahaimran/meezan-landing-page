@@ -21,7 +21,7 @@ function App() {
       <TopBtn/>
       {/* <Vision /> */}
       <Product/>
-      <Team />
+      {/* <Team /> */}
       <About />
       <ContactForm />
       <Partners />
