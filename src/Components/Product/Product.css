@@ -1,6 +1,7 @@
 
 .prodImg{
- opacity: 0.9 !important;
+width: 200px !important;
+margin: 0px auto;
 }
 .product h1{
     margin-bottom: 40px;
@@ -9,15 +10,17 @@
 }
 .prodTitle{
     color: #143D59;
-    font-size: 25px !important;
+    font-size: 20px !important;
 
 }
 .prodPara{
     color: #143D59;
+    font-size: 15px;
 }
 .card{
-    border: 2px solid #F4B41A !important;
-    width: 350px !important;
+    /* border: 2px solid #F4B41A !important; */
+    border: none;
+    width: 250px !important;
     margin: 10px;
     margin-left: 40px;
 }

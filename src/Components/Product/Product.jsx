@@ -29,7 +29,7 @@ function Product() {
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Contact Us</button>
+              <button type="button" className='btn btn-warning'>Ask Price</button>
               <a href={DocumentO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
@@ -40,13 +40,12 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>6FM100E-X</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+              This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Contact Us</button>
+              <button type="button" className='btn btn-warning'>Ask Price</button>
               <a href={DocumentTW} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
@@ -56,13 +55,12 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP12400F-X</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+              This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Contact Us</button>
+              <button type="button" className='btn btn-warning'>Ask Price</button>
               <a href={DocumentTH} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
@@ -72,13 +70,12 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1250</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+              This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Contact Us</button>
+              <button type="button" className='btn btn-warning'>Ask Price</button>
               <a href={DocumentFO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
@@ -88,13 +85,12 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1270Y</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+              This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Contact Us</button>
+              <button type="button" className='btn  btn-warning'>Ask Price</button>
              <a href={DocumentFI} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
