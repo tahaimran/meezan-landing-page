@@ -22,7 +22,7 @@ function Product() {
           <Card className='card '>
             <Card.Img variant="top" className='prodImg' src={ProductO} />
             <Card.Body className='cardBody'>
-              <Card.Title className='prodTitle'>6FM65E-X</Card.Title>
+              <Card.Title className='prodTitle'>6FM100E-X</Card.Title>
               <Card.Text className='prodPara'>
                 This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
@@ -30,7 +30,7 @@ function Product() {
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
               <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <a href={DocumentTW} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
           </Card>
@@ -38,7 +38,7 @@ function Product() {
           <Card className='card'>
             <Card.Img variant="top" className='prodImg' src={ProductTH} />
             <Card.Body className='cardBody'>
-              <Card.Title className='prodTitle'>6FM100E-X</Card.Title>
+              <Card.Title className='prodTitle'>6FM65E-X</Card.Title>
               <Card.Text className='prodPara'>
               This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
@@ -46,7 +46,7 @@ function Product() {
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
               <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentTW} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <a href={DocumentO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
 
             </Card.Footer>
           </Card>
