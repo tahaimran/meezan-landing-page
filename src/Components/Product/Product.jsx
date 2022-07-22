@@ -6,6 +6,7 @@ import ProductTH from '../Images/Products/6FM100E-X.jpeg'
 import ProductFO from '../Images/Products/CP12400F-X.jpeg'
 import ProductFI from '../Images/Products/CP1250.jpeg'
 import ProductS from '../Images/Products/CP1270Y.jpeg'
+import { Link } from 'react-scroll';
 
 import DocumentO from '../Documents/6FM65E-X.pdf'
 import DocumentTW from '../Documents/6FM100E-X.pdf'
@@ -29,24 +30,24 @@ function Product() {
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentTW} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <Link to='Contact'><button type="button" className='btn btn-warning'>Ask Price</button></Link>
+              <a href={DocumentTW} download><button type="button" className='btn btn-outline-warning'>Download</button></a>
 
             </Card.Footer>
           </Card>
-        
+
           <Card className='card'>
             <Card.Img variant="top" className='prodImg' src={ProductTH} />
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>6FM65E-X</Card.Title>
               <Card.Text className='prodPara'>
-              This is a wider card with supporting text below as a natural lead-in to
+                This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <Link to='Contact'><button type="button" className='btn btn-warning'>Ask Price</button></Link>
+              <a href={DocumentO} download><button type="button" className='btn btn-outline-warning'>Download</button></a>
 
             </Card.Footer>
           </Card>
@@ -55,13 +56,13 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP12400F-X</Card.Title>
               <Card.Text className='prodPara'>
-              This is a wider card with supporting text below as a natural lead-in to
+                This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentTH} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <Link to='Contact'><button type="button" className='btn btn-warning'>Ask Price</button></Link>
+              <a href={DocumentTH} download><button type="button" className='btn btn-outline-warning'>Download</button></a>
 
             </Card.Footer>
           </Card>
@@ -70,13 +71,13 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1250</Card.Title>
               <Card.Text className='prodPara'>
-              This is a wider card with supporting text below as a natural lead-in to
+                This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn btn-warning'>Ask Price</button>
-              <a href={DocumentFO} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <Link to='Contact'><button type="button" className='btn btn-warning'>Ask Price</button></Link>
+              <a href={DocumentFO} download><button type="button" className='btn btn-outline-warning'>Download</button></a>
 
             </Card.Footer>
           </Card>
@@ -85,13 +86,13 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1270Y</Card.Title>
               <Card.Text className='prodPara'>
-              This is a wider card with supporting text below as a natural lead-in to
+                This is a wider card with supporting text below as a natural lead-in to
                 additional content. This content is a little bit longer.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
-              <button type="button" className='btn  btn-warning'>Ask Price</button>
-             <a href={DocumentFI} download><button type="button" className='btn btn-outline-warning'>Download</button></a> 
+              <Link to='Contact'><button type="button" className='btn btn-warning'>Ask Price</button></Link>
+              <a href={DocumentFI} download><button type="button" className='btn btn-outline-warning'>Download</button></a>
 
             </Card.Footer>
           </Card>
