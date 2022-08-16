@@ -25,8 +25,7 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>6FM100E-X</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+              The FM series products are medium-sized valve-regulated batteries with a long designed service life of 10 years. As AGM batteries with a lean design, they are sealed, maintenance-free, and can be installed in any direction.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
@@ -41,8 +40,7 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>6FM65E-X</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+              The FM series products are medium-sized valve-regulated batteries with a long designed service life of 10 years. As AGM batteries with a lean design, they are sealed, maintenance-free, and can be installed in any direction.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
@@ -56,8 +54,8 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP12400F-X</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+              The CP series products are small-sized portable batteries with a designed service life of 5 years. As AGM batteries with a lean design, they are sealed, maintenance-free, and can be installed in any direction
+
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
@@ -71,8 +69,8 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1250</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+              The CP series products are small-sized portable batteries with a designed service life of 5 years. As AGM batteries with a lean design, they are sealed, maintenance-free, and can be installed in any direction
+
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
@@ -86,8 +84,8 @@ function Product() {
             <Card.Body className='cardBody'>
               <Card.Title className='prodTitle'>CP1270Y</Card.Title>
               <Card.Text className='prodPara'>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+              The CP series products are small-sized portable batteries with a designed service life of 5 years. As AGM batteries with a lean design, they are sealed, maintenance-free, and can be installed in any direction
+
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardFooter  text-center'>
